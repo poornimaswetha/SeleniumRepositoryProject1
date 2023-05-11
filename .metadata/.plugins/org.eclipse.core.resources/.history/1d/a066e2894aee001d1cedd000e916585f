@@ -1,0 +1,36 @@
+[INFO ] 2023-05-09 12:17:55.805 [main] getName() - ** TC_LoginTest_001 - Login Test Case Started **
+[INFO ] 2023-05-09 12:17:55.806 [main] getName() - URL is launched
+[INFO ] 2023-05-09 12:17:55.903 [main] getName() - Entered Username successfully
+[INFO ] 2023-05-09 12:17:55.970 [main] getName() - Entered Password successfully
+[INFO ] 2023-05-09 12:17:57.170 [main] getName() - Clicked Submit successfully
+[INFO ] 2023-05-09 12:17:57.184 [main] getName() - Login Successful - Login TestCase Passed
+[INFO ] 2023-05-09 12:17:57.185 [main] getName() - ** TC_LoginTest_001 - Login Test Case Ended**
+[INFO ] 2023-05-09 12:17:59.135 [main] getName() - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-09 12:17:59.137 [main] getName() - URL is launched
+[INFO ] 2023-05-09 12:17:59.199 [main] getName() - Entered Username successfully
+[INFO ] 2023-05-09 12:17:59.292 [main] getName() - Entered Password successfully
+[INFO ] 2023-05-09 12:18:00.020 [main] getName() - Clicked Submit successfully
+[INFO ] 2023-05-09 12:18:00.027 [main] getName() - Login Successful - verifyLoginwithValidandInvaliddata TestCase Passed
+[INFO ] 2023-05-09 12:18:00.027 [main] getName() - ** TC_LoginTest_002 - Login Test Case Ended**
+[INFO ] 2023-05-09 12:18:00.724 [main] getName() - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-09 12:18:00.724 [main] getName() - URL is launched
+[INFO ] 2023-05-09 12:18:00.792 [main] getName() - Entered Username successfully
+[INFO ] 2023-05-09 12:18:00.850 [main] getName() - Entered Password successfully
+[INFO ] 2023-05-09 12:18:01.665 [main] getName() - Clicked Submit successfully
+[INFO ] 2023-05-09 12:18:02.817 [main] getName() - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-09 12:18:02.817 [main] getName() - URL is launched
+[INFO ] 2023-05-09 12:18:02.917 [main] getName() - Entered Username successfully
+[INFO ] 2023-05-09 12:18:03.133 [main] getName() - Entered Password successfully
+[INFO ] 2023-05-09 12:18:04.092 [main] getName() - Clicked Submit successfully
+[INFO ] 2023-05-09 12:18:05.202 [main] getName() - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-09 12:18:05.202 [main] getName() - URL is launched
+[INFO ] 2023-05-09 12:18:05.299 [main] getName() - Entered Username successfully
+[INFO ] 2023-05-09 12:18:05.391 [main] getName() - Entered Password successfully
+[INFO ] 2023-05-09 12:18:06.347 [main] getName() - Clicked Submit successfully
+[INFO ] 2023-05-09 12:18:06.352 [main] getName() - Login Successful - verifyLoginwithValidandInvaliddata TestCase Passed
+[INFO ] 2023-05-09 12:18:06.352 [main] getName() - ** TC_LoginTest_002 - Login Test Case Ended**
+[INFO ] 2023-05-09 12:18:07.036 [main] getName() - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-09 12:18:07.037 [main] getName() - URL is launched
+[INFO ] 2023-05-09 12:18:07.095 [main] getName() - Entered Username successfully
+[INFO ] 2023-05-09 12:18:07.150 [main] getName() - Entered Password successfully
+[INFO ] 2023-05-09 12:18:08.078 [main] getName() - Clicked Submit successfully

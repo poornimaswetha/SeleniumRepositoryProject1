@@ -1,0 +1,28 @@
+[INFO ] 2023-05-07 17:16:12.735 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Started **
+[INFO ] 2023-05-07 17:16:12.735 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-07 17:16:13.441 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-07 17:16:14.296 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-07 17:16:16.295 [main] TC_LoginTest_001 - Clicked Submit successfully
+[INFO ] 2023-05-07 17:16:16.329 [main] TC_LoginTest_001 - Login Successful - Login TestCase Passed
+[INFO ] 2023-05-07 17:16:16.329 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Ended**
+[INFO ] 2023-05-07 17:17:15.533 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Started **
+[INFO ] 2023-05-07 17:17:15.536 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-07 17:17:16.315 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-07 17:17:17.170 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-07 17:17:19.017 [main] TC_LoginTest_001 - Clicked Submit successfully
+[INFO ] 2023-05-07 17:17:19.049 [main] TC_LoginTest_001 - Login Successful - Login TestCase Passed
+[INFO ] 2023-05-07 17:17:19.049 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Ended**
+[INFO ] 2023-05-08 17:11:08.919 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Started **
+[INFO ] 2023-05-08 17:11:08.920 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-08 17:11:09.696 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-08 17:11:10.395 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-08 17:11:12.609 [main] TC_LoginTest_001 - Clicked Submit successfully
+[INFO ] 2023-05-08 17:11:12.627 [main] TC_LoginTest_001 - Login Successful - Login TestCase Passed
+[INFO ] 2023-05-08 17:11:12.627 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Ended**
+[INFO ] 2023-05-08 17:13:56.214 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Started **
+[INFO ] 2023-05-08 17:13:56.214 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-08 17:13:56.417 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-08 17:13:56.502 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-08 17:13:57.672 [main] TC_LoginTest_001 - Clicked Submit successfully
+[INFO ] 2023-05-08 17:13:57.685 [main] TC_LoginTest_001 - Login Successful - Login TestCase Passed
+[INFO ] 2023-05-08 17:13:57.685 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Ended**

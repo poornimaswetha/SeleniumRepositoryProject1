@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;log4j2.properties&apos; to &apos;InterviewAutoIT&apos;" description="Move &apos;log4j2.properties&apos; to &apos;InterviewAutoIT&apos;" destination="/InterviewAutoIT" element1="/IcNetBanking/resources/log4j2.properties" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1683468871743" updateReferences="true"/>
+</session>

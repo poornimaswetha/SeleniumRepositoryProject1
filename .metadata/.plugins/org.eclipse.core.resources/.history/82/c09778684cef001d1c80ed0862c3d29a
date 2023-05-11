@@ -1,0 +1,19 @@
+package com.icnetbanking.utilities;
+
+import org.testng.annotations.DataProvider;
+
+public class CustomDataProvider {
+	
+	@DataProvider(name="InvalidCredentials")
+	public Object[][] getData() {
+		Object[][] data= {{"swetha2010@gmail.com","selenium@123"}};
+		return data;
+	}
+	
+	@DataProvider(name="InValidUserValidPwd")
+	public Object[][] getData1() {
+		Object[][] data= {{"latha@gmail.com","selenium@123"}};
+		return data;
+	}
+	
+}

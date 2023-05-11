@@ -1,0 +1,23 @@
+package JavaInterviewPrograms;
+
+public class Armstrong {
+	public static void main(String[] args) {
+	int num=153;	
+	int con=0;
+	int temp=num;
+	int a;
+	while(num>0) {
+		a=num%10;
+		con=con+a;
+		num=num/10;		
+	}
+	if (temp==con) {
+		 System.out.println(temp +  " is an Armstrong number");
+    } else
+        System.out.println(temp + " is not an armstrong number");
+}
+	}
+		
+
+	}
+}

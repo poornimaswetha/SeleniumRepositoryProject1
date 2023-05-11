@@ -1,0 +1,60 @@
+package LearnListeners;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+import TestUtils.CaptureScreenShot;
+
+
+
+public class Listeners extends CaptureScreenShot implements ITestListener {
+	
+	@Override
+	public void onTestStart(ITestResult result) {
+		// TODO Auto-generated method stub
+		System.out.println("Test Execution is Started :" + result.getName());
+	}
+
+	@Override
+	public void onTestSuccess(ITestResult result) {
+		// TODO Auto-generated method stub
+		System.out.println("Test Execution is Success :" + result.getName());
+	}
+
+	@Override
+	public void onTestFailure(ITestResult result) {
+		String testname = result.getName();
+		System.out.println("Test Execution is Failed :" + testname);
+		TakeScreenshot(testname);		
+	}
+
+
+	@Override
+	public void onTestSkipped(ITestResult result) {
+		// TODO Auto-generated method stub
+		System.out.println("Test Execution is Skipped :" + result.getName());
+
+	}
+
+	@Override
+	public void onStart(ITestContext context) {
+		// TODO Auto-generated method stub
+		System.out.println("Test Execution is Started :" + context.getName());
+
+	}
+
+	@Override
+	public void onFinish(ITestContext context) {
+		// TODO Auto-generated method stub
+		System.out.println("Test Execution is Finished :" + context.getName());
+	}
+
+}

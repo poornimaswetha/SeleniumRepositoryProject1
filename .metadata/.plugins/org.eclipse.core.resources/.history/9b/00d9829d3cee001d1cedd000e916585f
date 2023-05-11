@@ -1,0 +1,69 @@
+package InterviewPOIExcel;
+
+import java.time.Duration;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import java.io.FileInputStream;
+import java.io.IOException;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+// How to use DataProvider for data driven testing in a same class
+public class NinjaLoginDataProvider {
+	
+
+	@Test(dataProvider = "NinjaLogin",dataProviderClass=ExcelDataProvider.class)
+	public void Ninja(String urlnm, String uname, String pwd) throws InterruptedException {
+		// WebDriverManager for ChromeDriver
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get(urlnm);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.findElement(By.xpath("//span[contains(text(),'My Account')]")).click();
+		driver.findElement(By.linkText("Login")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.id("input-email")).sendKeys(uname);
+		driver.findElement(By.id("input-password")).sendKeys(pwd);
+		driver.findElement(By.id("input-password")).sendKeys(Keys.ENTER);
+		Thread.sleep(3000);
+		driver.quit();
+	}
+
+	/*@DataProvider(name = "NinjaLogin")
+	public Object[][] getData() throws IOException {
+		FileInputStream fis = new FileInputStream(
+				"D:\\SeliniumWorkspace\\InterviewPOIExcel\\TestDataFiles\\Testdata.xlsx");
+		XSSFWorkbook WorkBook = new XSSFWorkbook(fis);
+		XSSFSheet sht = WorkBook.getSheetAt(1);
+		// Get rowcount and column count
+		int rowcount = sht.getPhysicalNumberOfRows();
+		int colcount = sht.getRow(0).getLastCellNum();
+		System.out.println("Rowcount=" + rowcount);
+		System.out.println("Columncount=" + colcount);
+
+		Object[][] data = new Object[rowcount - 1][colcount];
+		for (int r = 0; r < rowcount - 1; r++) {
+			XSSFRow row = sht.getRow(r + 1);
+			for (int c = 0; c < colcount; c++) {
+				XSSFCell col = row.getCell(c);
+				// System.out.println(df.formatCellValue(col));
+				data[r][c] = df.formatCellValue(col);
+				System.out.println(data[r][c]);
+			}
+		}
+
+		WorkBook.close();
+		fis.close();
+		return data;
+
+	}*/
+}

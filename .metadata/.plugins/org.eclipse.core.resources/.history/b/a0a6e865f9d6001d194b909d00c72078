@@ -1,0 +1,32 @@
+package ObjectRepository;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class AccountPage {
+
+	WebDriver driver;
+	// Constructor
+	// Constructor 'AccountPage', single parameterized constructor
+	// driver return type is 'WebDriver' so WebDriver driver
+	// this AccountPage driver 'this.driver' is assigned to the LoginTestCase 'driver'
+	public AccountPage(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	//@FindBy(Locators) - This is from Selenium Annotations 
+	//private Access modifier is used so that this locators are used only with in class
+	//encapsulated - Private for this class
+	// WebElement is return type of accountbreadcrumb method
+	@FindBy(xpath="//ul[@class='breadcrumb']//a[text()='Account']")
+	private WebElement accountbreadcrumb;
+
+	
+	// Create a method for each Objects in this Loginpage
+	// And return the webElement driver.findElement(method)
+	public WebElement accountbreadcrumb() {
+		return driver.findElement(accountbreadcrumb);
+	}
+}

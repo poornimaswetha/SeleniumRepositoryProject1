@@ -1,0 +1,115 @@
+package com.icnetbanking.testcases;
+import org.openqa.selenium.NoSuchElementException;
+import org.testng.Assert;
+import org.testng.SkipException;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+import com.icnetbanking.pageobjects.AccountPage;
+import com.icnetbanking.pageobjects.HomePage;
+import com.icnetbanking.pageobjects.LoginPage;
+
+@Listeners(com.icnetbanking.utilities.Listeners.class) // package.Listeners.class
+public class TC_Login_001_Test extends BaseClass {
+
+	@Test(priority = 1)
+	public void CheckValidUserPwdforLogin() throws InterruptedException {
+		HomePage HomePageObj = new HomePage(driver);
+		HomePageObj.clicklinkmyaccount();
+		HomePageObj.clicklinklogin();
+		LoginPage LoginPageObj = new LoginPage(driver);
+		LoginPageObj.setusername(username);
+		LoginPageObj.setpassword(password);
+		LoginPageObj.clickbuttonlogin();
+
+		Thread.sleep(3000);
+
+		// throw new SkipException("This Test got skipped");
+		// Assert.assertEquals(Actualtitle, Expectedtitle, "The Title of after loggedin
+		// page is mismatching");
+
+		AccountPage AccountPageObj = new AccountPage(driver);
+		try {
+			Boolean Actualmessage = AccountPageObj.verifyEdityouraccinfodisplayed();
+			Boolean Expectedmessage = true;
+			logger.info("Actualmessage=" + Actualmessage);
+			logger.info("Expectedmessage=" + Expectedmessage);
+			if (Actualmessage.equals(Expectedmessage)) {
+				Assert.assertTrue(true);
+				logger.info("Pass:Edit Your Account information link is displayed");
+			} else {
+				Assert.assertTrue(false);
+				logger.info("Fail: Edit Your Account information link is not displayed");
+			}
+		} catch (NoSuchElementException e) {
+			// e.printStackTrace();
+			logger.info("No Such Element Found :" + e.getMessage());
+			logger.info("Fail: Edit Your Account information link is not displayed ");
+			Assert.assertTrue(false);
+		}
+
+	}
+
+	@Test(dataProvider = "gettestdatafromexcel", dataProviderClass = com.icnetbanking.testdata.CustomDataProvider.class, priority = 2)
+	public void CheckInValidUserPwdforLogin(String uname, String pwd) throws InterruptedException {
+
+		HomePage HomePageObj = new HomePage(driver);
+		HomePageObj.clicklinkmyaccount();
+		HomePageObj.clicklinklogin();
+		LoginPage LoginPageObj = new LoginPage(driver);
+		LoginPageObj.setusername(uname);
+		LoginPageObj.setpassword(pwd);
+		LoginPageObj.clickbuttonlogin();
+		Thread.sleep(3000);
+		try {
+			String Actualmessage = LoginPageObj.gettxtinvalidcredentials();
+			String Expectedmessage = "Warning: No match for E-Mail Address and/or Password.";
+			logger.info("Actualmessage=" + Actualmessage);
+			logger.info("Expectedmessage=" + Expectedmessage);
+			if (Actualmessage.equals(Expectedmessage)) {				
+				logger.info("Correct warning message displayed for invalid credentials");
+				Assert.assertTrue(true);
+			} else {				
+				logger.info("Fail : InCorrect warning message displayed for invalid credentials");
+				Assert.assertTrue(false);
+			}
+		} catch (NoSuchElementException e) {
+			// e.printStackTrace();
+			logger.info("No Such Element Found :" + e.getMessage());
+			logger.info("Fail : InCorrect warning message displayed for invalid credentials");
+			Assert.assertTrue(false);
+		}
+	}
+
+	@Test(dataProvider = "gettestdatafromexcel", dataProviderClass = com.icnetbanking.testdata.CustomDataProvider.class, priority = 2)
+	public void CheckInValidUserValidPwdforLogin(String uname, String pwd) throws InterruptedException {
+		HomePage HomePageObj = new HomePage(driver);
+		HomePageObj.clicklinkmyaccount();	
+		HomePageObj.clicklinklogin();	
+		LoginPage LoginPageObj = new LoginPage(driver);
+		LoginPageObj.setusername(uname);		
+		LoginPageObj.setpassword(pwd);		
+		LoginPageObj.clickbuttonlogin();	
+		Thread.sleep(3000);
+		try {
+		String Actualmessage = LoginPageObj.gettxtinvalidcredentials();
+		String Expectedmessage = "Warning: No match for E-Mail Address and/or Password.";
+		logger.info("Actualmessage=" + Actualmessage);
+		logger.info("Expectedmessage=" + Expectedmessage);
+
+		if (Actualmessage.equals(Expectedmessage)) {			
+			logger.info("Correct warning message displayed for invalid credentials");
+			Assert.assertTrue(true);
+		} else {
+			Assert.assertTrue(false);
+			logger.info("Fail : InCorrect warning message displayed for invalid credentials");
+		}
+		} catch (NoSuchElementException e) {
+			// e.printStackTrace();
+			logger.info("No Such Element Found :" + e.getMessage());
+			logger.info("Fail : InCorrect warning message displayed for invalid credentials");
+			Assert.assertTrue(false);
+		}
+
+	}
+
+}

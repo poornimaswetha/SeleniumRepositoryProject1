@@ -1,0 +1,50 @@
+//Java program to split an array 
+//into two equal sum subarrays
+import java.io.*;
+import java.util.List;
+
+public class arraysplit {
+
+
+public static int splitIntoTwo(List<Integer> arr) {
+	int splitPoint;
+	int leftSum = 0;
+	int count = 0;
+	int result;
+	for (int i = 0; i < arr.size(); i++) {
+		// add current element to left Sum
+		leftSum += arr.get(i);
+
+		// find sum of rest array
+		// elements (rightSum)
+		int rightSum = 0;
+		for (int j = i + 1; j < arr.size(); j++)
+			rightSum += arr.get(j);
+
+		// split point index
+		if (leftSum > rightSum)
+			count = count + 1;
+	}
+
+	for (int i = 0; i < arr.size(); i++) {
+		if (count == i)
+			System.out.println();
+
+		System.out.print(arr.get(i));
+		String z=arr.get(i)+" ";
+		
+
+	}
+		
+//Driver program
+   
+ public static void main (String[] args) {
+   
+ int arr[] = {1 , 2 , 3 , 4 , 5 , 5 };
+ int n = arr.length;
+ printTwoParts(arr, n);
+   
+ }
+}
+
+//This code is contributed by vt_m

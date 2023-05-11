@@ -1,0 +1,92 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Seliniumex1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		/*// TODO Auto-generated method stub
+		//ChromeDriver is the predifed class of selenium
+		//WebDriver is an interface of selenium
+		//ChromeDriver is the Child class of WebDriver interface
+		// Interface Webdriver is called by child Class Chrome driver
+		//ChromeDriver() is a Constructor to launch chrome browser*/
+		
+		System.setProperty("webdriver.chrome.driver", "D:\\SeliniumWorkspace\\SeleniumWebDriverDemo\\Drivers\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		
+		// get method and Manage method belong to webdriver interface
+		driver.get("http://omayo.blogspot.com/http://omayo.blogspot.com/");
+		driver.manage().window().maximize();
+		
+		//findElement belongs to webdriver interface
+		// By -is the Class name for method - id is static method
+		
+		// id static method has to be called by Classname, By.id like that
+		
+		//*****Code 1*****  
+		//WebElement element = driver.findElement(By.id("confirm"));
+		//element.click();
+		
+		
+		//*****Code 2***** 
+		/*
+		 * WebElement element = driver.findElement(By.name("q"));
+		 * element.sendKeys("Poornima");
+		 */
+		
+		
+		
+		/*
+		 * //*****Code 3***** 
+		 * WebElement element =driver.findElement(By.id("textbox1")); 
+		 * element.sendKeys("Poornima"); 
+		 * // Wait
+		 * Thread.sleep(5000); 
+		 * element.clear();
+		 */
+		
+		
+		/*
+		 * //*****Code 4***** 
+		 * WebElement element = driver.findElement(By.className("classone")); 
+		 * element.sendKeys("Poornima");
+		 * // Wait 
+		 * Thread.sleep(5000); 
+		 * element.clear();
+		 */
+		
+		/*
+		 * //*****Code 5***** 
+		 * WebElement element = driver.findElement(By.linkText("compendiumdev")); 
+		 * element.click();
+		 */
+				
+		  //*****Code 6***** 
+		  //WebElement element = driver.findElement(By.partialLinkText("compendium")); 
+		  //element.click();
+			
+		
+		  //*****Code 7***** 
+		 // WebElement element = driver.findElement(By.cssSelector("#confirm")); 
+		 //element.click();
+		
+		//*****Code 8***** 
+		//WebElement element = driver.findElement(By.xpath("//input[@id='confirm']")); 
+		//Welement.click();
+		
+		//*****Code 9***** 
+		//driver.findElement(By.xpath("//input[@id='confirm']")).click();
+		
+		//*****Code 10***** 
+		String text = driver.findElement(By.id("pah")).getText();
+		System.out.println(text);
+		
+		//To get tile of the text
+		driver.getTitle();
+		
+		
+	}
+
+}

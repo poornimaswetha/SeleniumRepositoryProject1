@@ -1,0 +1,87 @@
+package com.icnetbanking.testcases;
+
+import static org.testng.Assert.assertTrue;
+
+import java.time.Duration;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.junit.Assert;
+import org.openqa.selenium.NoSuchElementException;
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.Status;
+import com.icnetbanking.pageobjects.HomePage;
+import com.icnetbanking.pageobjects.RegisterPage;
+import com.icnetbanking.utilities.Listeners;
+
+public class TC_Register_003_Test extends BaseClass {	
+
+	@Test(priority = 1, dataProvider = "gettestdatafromexcel", dataProviderClass = com.icnetbanking.testdata.ExcelDataProvider.class)
+	public void RegisterNewAccount(String fname, String lname, String email, String telephone, String regpwd) {
+		logger.info("TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started");
+		
+		HomePage HomePageObj = new HomePage(driver);
+		HomePageObj.clicklinkmyaccount();
+		logger.info("Cliked on My Account link in HomePage successfully");
+		Listeners.extenttest.log(Status.INFO, "Cliked on My Account link in HomePage successfully");
+		HomePageObj.clicklinkregister();
+		logger.info("Cliked on My Register link in HomePage successfully");
+		Listeners.extenttest.log(Status.INFO, "Cliked on My Register link in HomePage successfully");
+		RegisterPage RegisterPageObj = new RegisterPage(driver);
+		RegisterPageObj.setregfirstname(fname);
+		logger.info("Entered Firstname successfully :" + fname);
+		Listeners.extenttest.log(Status.INFO, "Entered Firstname successfully :" + fname);
+		RegisterPageObj.setreglastname(lname);
+		logger.info("Entered Lastname successfully :" + lname);
+		Listeners.extenttest.log(Status.INFO, "Entered Lastname successfully :" + lname);
+		RegisterPageObj.setregemail(email);
+		logger.info("Entered Email successfully :" + email);
+		Listeners.extenttest.log(Status.INFO, "Entered Email successfully :" + email);
+		RegisterPageObj.setregtelephone(telephone);
+		logger.info("Entered Telephoneno successfully :" + telephone);
+		Listeners.extenttest.log(Status.INFO, "Entered Telephoneno successfully :" + telephone);
+		RegisterPageObj.setregpassword(regpwd);
+		logger.info("Entered password successfully :" + regpwd);
+		Listeners.extenttest.log(Status.INFO, "Entered password successfully :" + regpwd);
+		RegisterPageObj.setregconfirmpassword(regpwd);
+		logger.info("Entered confirm password successfully :" + regpwd);
+		Listeners.extenttest.log(Status.INFO, "Entered confirm password successfully :" + regpwd);
+		RegisterPageObj.clickyesnewsletter();
+		RegisterPageObj.clickagree();
+		RegisterPageObj.clickcontinue();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+
+		try {
+			String Actualmessage = RegisterPageObj.gettxtaccountcreated();
+			String Expectedmessage = "Your Account Has Been Created!";
+			logger.info("ActualMessage = " + Actualmessage);
+			Listeners.extenttest.log(Status.INFO, "ActualMessage = " + Actualmessage);
+			logger.info("Expectedmessage = " + Expectedmessage);
+			Listeners.extenttest.log(Status.INFO, "Expectedmessage = " + Expectedmessage);
+			if (Actualmessage.equals(Expectedmessage)) {
+
+				logger.info("Pass: Account has been Created Successfully");
+				Listeners.extenttest.log(Status.INFO, "Pass: Account has been Created Successfully");
+				Assert.assertTrue(true);
+
+			} else {
+
+				logger.info("Fail: Accout not Created ");
+				Listeners.extenttest.log(Status.INFO, "Fail: Accout not Created ");
+				Assert.assertTrue(false);
+			}
+
+		} catch (NoSuchElementException e) {
+			// e.printStackTrace();
+			logger.info("No Such Element Found :" + e.getMessage());
+			logger.info("Fail: Accout not Created ");
+			Listeners.extenttest.log(Status.INFO, "Fail: Accout not Created ");
+			Assert.assertTrue(false);
+
+		}
+
+		logger.info("TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Ended");
+
+	}
+
+}

@@ -1,0 +1,21 @@
+[INFO ] 2023-05-10 20:37:51.914 [main] TC_LoginTest_002 - TestScenario : TC_LoginTest_002 - Testcase : TC_004 - InvalidCredentialsLogin Testcase Started
+[INFO ] 2023-05-10 20:37:53.887 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 20:37:54.050 [main] TC_LoginTest_002 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:37:54.416 [main] TC_LoginTest_002 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:37:54.526 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 20:37:54.622 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 20:37:54.997 [main] TC_LoginTest_002 - Clicked Login Button successfully
+[INFO ] 2023-05-10 20:37:59.138 [main] TC_LoginTest_002 - TestScenario : TC_LoginTest_002 - Testcase : TC_004 - InvalidCredentialsLogin Testcase Started
+[INFO ] 2023-05-10 20:38:00.934 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 20:38:01.595 [main] TC_LoginTest_002 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:38:03.690 [main] TC_LoginTest_002 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:38:03.776 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 20:38:03.872 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 20:38:04.369 [main] TC_LoginTest_002 - Clicked Login Button successfully
+[INFO ] 2023-05-10 20:38:11.920 [main] TC_LoginTest_002 - TestScenario : TC_LoginTest_002 - Testcase : TC_004 - InvalidCredentialsLogin Testcase Started
+[INFO ] 2023-05-10 20:38:13.822 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 20:38:13.968 [main] TC_LoginTest_002 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:38:14.354 [main] TC_LoginTest_002 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:38:14.436 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 20:38:14.525 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 20:38:14.860 [main] TC_LoginTest_002 - Clicked Login Button successfully

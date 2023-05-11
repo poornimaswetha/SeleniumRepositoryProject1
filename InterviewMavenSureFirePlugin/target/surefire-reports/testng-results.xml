@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-10T21:11:40 AST" name="Suite" finished-at="2023-05-10T21:11:52 AST" duration-ms="12564">
+    <groups>
+    </groups>
+    <test started-at="2023-05-10T21:11:40 AST" name="Test" finished-at="2023-05-10T21:11:52 AST" duration-ms="12564">
+      <class name="InterviewMavenSureFirePlugin.OneTest">
+        <test-method signature="Checkomayotext()[pri:0, instance:InterviewMavenSureFirePlugin.OneTest@6aba2b86]" started-at="2023-05-10T21:11:40 AST" name="Checkomayotext" finished-at="2023-05-10T21:11:49 AST" duration-ms="9094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkomayotext -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:InterviewMavenSureFirePlugin.OneTest@6aba2b86]" started-at="2023-05-10T21:11:49 AST" name="closure" finished-at="2023-05-10T21:11:52 AST" duration-ms="3396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- InterviewMavenSureFirePlugin.OneTest -->
+      <class name="InterviewMavenSureFirePlugin.FourTest">
+        <test-method signature="mfour()[pri:0, instance:InterviewMavenSureFirePlugin.FourTest@42e99e4a]" started-at="2023-05-10T21:11:40 AST" name="mfour" finished-at="2023-05-10T21:11:40 AST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mfour -->
+      </class> <!-- InterviewMavenSureFirePlugin.FourTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

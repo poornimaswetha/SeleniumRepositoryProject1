@@ -1,0 +1,11 @@
+package JavaInterviewPrograms;
+
+public class NumberReverse {
+// reverse the entered number
+	public static void main(String[] args) {
+		int num=123456;
+		
+
+	}
+
+}

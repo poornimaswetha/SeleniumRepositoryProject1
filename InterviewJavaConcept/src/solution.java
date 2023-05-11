@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+//parent class
+class Car{
+	int no_of_tires=4;
+	public String bodyType="Plastic";
+	
+	public void reverseGear() {
+		System.out.println("Reverse Gear is Applied...");
+	}
+	
+	public void switchOnHeadlights() {
+		System.out.println("Headlights turned on...");
+	}
+	
+}
+
+// Child class
+class BMW extends Car{
+	public String modelName="X3";
+	public void topSpeed() {
+		System.out.println("TopSpeed of BMW is 200 kmph");
+	}
+	
+	
+}
+
+//Main class
+public class solution {
+
+	 public static void main(String[] args) {	        
+	        Scanner sc = new Scanner(System.in);
+	        for (int i = 0; i < 3; i++) {
+	            String name = sc.nextLine();
+	            BMW b = new BMW();
+	            if(name.equals("reverseGear")){
+	                b.reverseGear();
+	            }
+	            if(name.equals("switchOnHeadlights")){
+	                b.switchOnHeadlights();
+	            }
+	            if(name.equals("topSpeed")){
+	                b.topSpeed();
+	            }
+	        }
+	    } 
+	 
+	}
+
+

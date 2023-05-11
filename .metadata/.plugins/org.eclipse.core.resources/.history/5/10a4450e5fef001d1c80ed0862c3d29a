@@ -1,0 +1,98 @@
+[INFO ] 2023-05-10 20:41:19.496 [main] TC_LoginTest_002 - TestScenario : TC_LoginTest_002 - Testcase : TC_004 - InvalidCredentialsLogin Testcase Started
+[INFO ] 2023-05-10 20:41:21.447 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 20:41:21.612 [main] TC_LoginTest_002 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:41:21.986 [main] TC_LoginTest_002 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:41:22.092 [main] TC_LoginTest_002 - Entered Username successfully :poornima1982@gmail.com
+[INFO ] 2023-05-10 20:41:22.167 [main] TC_LoginTest_002 - Entered Password successfully :selenium@1234
+[INFO ] 2023-05-10 20:41:22.511 [main] TC_LoginTest_002 - Clicked Login Button successfully
+[INFO ] 2023-05-10 20:41:26.784 [main] TC_LoginTest_002 - TestScenario : TC_LoginTest_002 - Testcase : TC_004 - InvalidCredentialsLogin Testcase Started
+[INFO ] 2023-05-10 20:41:28.575 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 20:41:29.145 [main] TC_LoginTest_002 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:41:29.560 [main] TC_LoginTest_002 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:41:29.724 [main] TC_LoginTest_002 - Entered Username successfully :swetha2010@gmail.com
+[INFO ] 2023-05-10 20:41:29.826 [main] TC_LoginTest_002 - Entered Password successfully :selenium@123
+[INFO ] 2023-05-10 20:41:30.331 [main] TC_LoginTest_002 - Clicked Login Button successfully
+[INFO ] 2023-05-10 20:41:37.852 [main] TC_LoginTest_002 - TestScenario : TC_LoginTest_002 - Testcase : TC_004 - InvalidCredentialsLogin Testcase Started
+[INFO ] 2023-05-10 20:41:39.713 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 20:41:39.857 [main] TC_LoginTest_002 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:41:40.252 [main] TC_LoginTest_002 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:41:40.349 [main] TC_LoginTest_002 - Entered Username successfully :latha@gmail.com
+[INFO ] 2023-05-10 20:41:40.435 [main] TC_LoginTest_002 - Entered Password successfully :pass@123
+[INFO ] 2023-05-10 20:41:40.757 [main] TC_LoginTest_002 - Clicked Login Button successfully
+[INFO ] 2023-05-10 20:44:15.054 [main] TC_LoginTest_002 - TestScenario : TC_LoginTest_002 - Testcase : TC_004 - InvalidCredentialsLogin Testcase Started
+[INFO ] 2023-05-10 20:44:17.000 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 20:44:17.188 [main] TC_LoginTest_002 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:44:17.557 [main] TC_LoginTest_002 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:44:17.659 [main] TC_LoginTest_002 - Entered Username successfully :poornima1982@gmail.com
+[INFO ] 2023-05-10 20:44:17.746 [main] TC_LoginTest_002 - Entered Password successfully :selenium@1234
+[INFO ] 2023-05-10 20:44:18.081 [main] TC_LoginTest_002 - Clicked Login Button successfully
+[INFO ] 2023-05-10 20:44:21.117 [main] TC_LoginTest_002 - Actualmessage=Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+[INFO ] 2023-05-10 20:44:21.117 [main] TC_LoginTest_002 - Expectedmessage=Warning: No match for E-Mail Address and/or Password.
+[INFO ] 2023-05-10 20:44:22.261 [main] TC_LoginTest_002 - TestScenario : TC_LoginTest_002 - Testcase : TC_004 - InvalidCredentialsLogin Testcase Started
+[INFO ] 2023-05-10 20:44:24.123 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 20:44:24.675 [main] TC_LoginTest_002 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:44:25.054 [main] TC_LoginTest_002 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:44:25.203 [main] TC_LoginTest_002 - Entered Username successfully :swetha2010@gmail.com
+[INFO ] 2023-05-10 20:44:25.339 [main] TC_LoginTest_002 - Entered Password successfully :selenium@123
+[INFO ] 2023-05-10 20:44:25.879 [main] TC_LoginTest_002 - Clicked Login Button successfully
+[INFO ] 2023-05-10 20:44:33.265 [main] TC_LoginTest_002 - TestScenario : TC_LoginTest_002 - Testcase : TC_004 - InvalidCredentialsLogin Testcase Started
+[INFO ] 2023-05-10 20:44:35.213 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 20:44:35.367 [main] TC_LoginTest_002 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:44:35.727 [main] TC_LoginTest_002 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:44:35.808 [main] TC_LoginTest_002 - Entered Username successfully :latha@gmail.com
+[INFO ] 2023-05-10 20:44:35.883 [main] TC_LoginTest_002 - Entered Password successfully :pass@123
+[INFO ] 2023-05-10 20:44:36.255 [main] TC_LoginTest_002 - Clicked Login Button successfully
+[INFO ] 2023-05-10 20:44:39.284 [main] TC_LoginTest_002 - Actualmessage=Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+[INFO ] 2023-05-10 20:44:39.284 [main] TC_LoginTest_002 - Expectedmessage=Warning: No match for E-Mail Address and/or Password.
+[INFO ] 2023-05-10 20:56:48.111 [main] TC_LoginTest_001 - TestScenario : TC_LoginTest_001 - Testcase : TC_001 - CheckValidUserPwdforLogin Testcase Started
+[INFO ] 2023-05-10 20:56:50.073 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 20:56:50.254 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:56:50.621 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:56:50.716 [main] TC_LoginTest_001 - Entered Username successfully poornima1982@gmail.com
+[INFO ] 2023-05-10 20:56:50.799 [main] TC_LoginTest_001 - Entered Password successfully selenium@123
+[INFO ] 2023-05-10 20:56:51.128 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 20:56:58.817 [main] TC_LoginTest_001 - TestScenario : TC_LoginTest_001 - Testcase : TC_002 - CheckValidUserPwdforLogin Testcase Started
+[INFO ] 2023-05-10 20:57:00.749 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 20:57:00.920 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:57:01.282 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:57:01.388 [main] TC_LoginTest_001 - Entered Username successfully poornima1982@gmail.com
+[INFO ] 2023-05-10 20:57:01.494 [main] TC_LoginTest_001 - Entered Password successfully selenium@123
+[INFO ] 2023-05-10 20:57:02.114 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 20:57:09.643 [main] TC_LoginTest_001 - TestScenario : TC_LoginTest_001 - Testcase : TC_003 - CheckInValidUserValidPwdforLogin Testcase Started
+[INFO ] 2023-05-10 20:57:11.538 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 20:57:11.679 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 20:57:12.079 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 20:57:12.212 [main] TC_LoginTest_001 - Entered Username successfully poornima1982@gmail.com
+[INFO ] 2023-05-10 20:57:12.324 [main] TC_LoginTest_001 - Entered Password successfully selenium@123
+[INFO ] 2023-05-10 20:57:12.730 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 20:57:15.771 [main] TC_LoginTest_001 - Actualmessage=Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+[INFO ] 2023-05-10 20:57:15.771 [main] TC_LoginTest_001 - Expectedmessage=Warning: No match for E-Mail Address and/or Password.
+2023-05-10 21:17:20.334 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_001 - CheckValidUserPwdforLogin Testcase Started
+2023-05-10 21:17:22.331 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - URL is launched
+2023-05-10 21:17:22.725 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-10 21:17:23.030 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Login link in HomePage successfully
+2023-05-10 21:17:23.120 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Username successfully poornima1982@gmail.com
+2023-05-10 21:17:23.204 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Password successfully selenium@123
+2023-05-10 21:17:23.697 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Clicked Login Button successfully
+2023-05-10 21:17:26.748 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Actualmessage=true
+2023-05-10 21:17:26.749 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Expectedmessage=true
+2023-05-10 21:17:26.751 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Pass:Edit Your Account information link is displayed
+2023-05-10 21:17:26.751 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_001 - CheckValidUserPwdforLogin Testcase Ended
+2023-05-10 21:17:27.694 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_002 - CheckValidUserPwdforLogin Testcase Started
+2023-05-10 21:17:29.526 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - URL is launched
+2023-05-10 21:17:30.181 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-10 21:17:30.590 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Login link in HomePage successfully
+2023-05-10 21:17:30.741 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Username successfully poornima1982@gmail.com
+2023-05-10 21:17:30.862 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Password successfully selenium@123
+2023-05-10 21:17:31.435 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Clicked Login Button successfully
+2023-05-10 21:17:38.926 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_003 - CheckInValidUserValidPwdforLogin Testcase Started
+2023-05-10 21:17:40.791 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - URL is launched
+2023-05-10 21:17:40.903 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-10 21:17:41.293 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Login link in HomePage successfully
+2023-05-10 21:17:41.380 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Username successfully poornima1982@gmail.com
+2023-05-10 21:17:41.474 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Password successfully selenium@123
+2023-05-10 21:17:41.798 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Clicked Login Button successfully
+2023-05-10 21:17:44.839 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Actualmessage=Warning: No match for E-Mail Address and/or Password.
+2023-05-10 21:17:44.840 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Expectedmessage=Warning: No match for E-Mail Address and/or Password.
+2023-05-10 21:17:44.840 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Correct warning message displayed for invalid credentials
+2023-05-10 21:17:44.840 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_003 - CheckInValidUserValidPwdforLogin Testcase Ended

@@ -1,0 +1,23 @@
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class FormSubmission {
+
+    public static void fillForm(WebDriver driver, String pageUrl) {
+        // fill form code goes here
+    	
+    	WebDriverManager.chromedriver().setup();
+		ChromeOptions options = new ChromeOptions();// To open the web page 
+		options.addArguments("--remote-allow-origins=*");//To allow origins
+		WebDriver driver=new ChromeDriver(options);
+		
+    }
+
+    public static void submitForm(WebDriver driver) {
+        // Assume this method is called only after calling fillForm(driver,url) method
+    }
+}

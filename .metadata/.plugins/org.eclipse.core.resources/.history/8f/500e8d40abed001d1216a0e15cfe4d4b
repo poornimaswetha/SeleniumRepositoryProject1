@@ -1,0 +1,5 @@
+package com.icnetbanking.utilities;
+
+public @interface BeforeSuite {
+
+}

@@ -1,0 +1,21 @@
+package JavaInterviewPrograms;
+//The number 15 3 is an Armstrong number of order 3 because l3 + 53 + 33 = 1 + 125 + 27 = 153
+public class Armstrong {
+	public static void main(String[] args) {
+	int num=1634;//153 //a*a*a	
+	int con=0;
+	int temp=num;
+	int a;
+	while(num>0) {
+		a=num%10; // reminder 
+		con=con+(a*a*a*a);// reminder cube
+		num=num/10;		
+	}
+	if (temp==con) {
+		 System.out.println(temp +  " is an Armstrong number");
+    } else
+        System.out.println(temp + " is not an armstrong number");
+
+	}		
+
+	}

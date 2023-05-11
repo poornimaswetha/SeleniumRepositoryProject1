@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Payment">
+	<test thread-count="5" name="Payment">
+		<classes>
+			<class name="TestNGPack1.ClassOne" />
+			<class name="TestNGPack1.ClassThree" />
+			<class name="TestNGpack2.ClassFour" />
+			<class name="TestNGpack2.ClassSix" />
+
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="CreditCard/DebitCard">
+		<classes>
+			<class name="TestNGPack1.ClassTwo" />
+			<class name="TestNGpack2.ClassFive" />
+			<class name="TestNGPack3.ClassSeven" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

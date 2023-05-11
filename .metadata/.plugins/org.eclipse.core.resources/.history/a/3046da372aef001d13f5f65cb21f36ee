@@ -1,0 +1,57 @@
+package com.icnetbanking.pageobjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+//constructor
+public class LoginPage {
+	WebDriver driver;
+	
+	public LoginPage(WebDriver driver){
+		this.driver=driver;		
+		PageFactory.initElements(driver, this);		
+	}
+	
+	/*@FindBy(xpath="//span[text()='My Account']")
+	WebElement linkmyaccount;
+	
+	@FindBy(linkText="Login")
+	WebElement linklogin;*/
+	
+	@FindBy(id="input-email")
+	WebElement txtusername;
+		
+	@FindBy(id="input-password")
+	WebElement txtpassword;
+	
+	@FindBy(xpath="//input[@value='Login']")
+	WebElement btnlogin;
+	
+	/*@FindBy(xpath="//a[text()='Edit your account information']")
+	WebElement linkaccount;
+	
+	//Action Methods
+	public void clicklinkmyaccount() {
+		linklogin.click();		
+	}
+	public void clicklinklogin() {
+		linklogin.click();		*/
+	}
+	public void setusername(String uname) {
+		txtusername.sendKeys(uname);		
+	}
+	public void setpassword(String pwd) {
+		txtpassword.sendKeys(pwd);		
+	}	
+	public void clickbuttonlogin() {
+		btnlogin.click();		
+	}
+	public Boolean verifylinkaccountdisplayed() {
+		return linkaccount.isDisplayed();		
+	}
+
+	
+	
+	
+}

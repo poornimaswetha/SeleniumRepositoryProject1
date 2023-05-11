@@ -1,0 +1,14 @@
+package one;
+
+public class dataProvider {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		public  void loginTest(String username, String password) {
+			System.out.println(username);
+			System.out.println(password);
+		}
+
+	}
+
+}

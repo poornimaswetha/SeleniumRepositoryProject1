@@ -1,0 +1,11 @@
+public class InstanceAndStatic{
+   int myVariable;
+   static int data = 30;
+   
+   public static void main(String args[]){
+      InstanceAndStatic InstanceAndStatic = new InstanceAndStatic();
+      
+      System.out.println("Value of instance variable: "+Obj.InstanceAndStatic.);
+      System.out.println("Value of static variable: "+InstanceAndStatic.data);
+   }
+}

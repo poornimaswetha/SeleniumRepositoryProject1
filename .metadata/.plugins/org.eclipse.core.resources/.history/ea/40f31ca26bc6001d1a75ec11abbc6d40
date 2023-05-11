@@ -1,0 +1,20 @@
+package JavaInterviewPrograms;
+
+public class ReverseSentence {
+
+	public static void main(String[] args) {
+		String sentence="Java is a Programming Language";
+		System.out.println(ReverseSentence(sentence));
+
+	}
+
+	private static String ReverseSentence(String sentence) {
+		
+		String reverse="";
+		
+		
+		
+		return null;
+	}
+
+}

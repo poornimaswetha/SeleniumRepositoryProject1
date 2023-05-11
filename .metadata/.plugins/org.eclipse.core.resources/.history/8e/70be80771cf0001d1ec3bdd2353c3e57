@@ -1,0 +1,143 @@
+2023-05-11 19:41:59.732 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - TestScenario : com.icnetbanking.testcases.TC_Login_001_Test Started Execution
+2023-05-11 19:41:59.737 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - URL Launched successfully
+2023-05-11 19:42:00.092 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 19:42:00.425 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Cliked on Login link in HomePage successfully
+2023-05-11 19:42:00.511 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Entered Username successfully poornima1982@gmail.com
+2023-05-11 19:42:00.586 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Entered Password successfully selenium@123
+2023-05-11 19:42:01.087 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Clicked Login Button successfully
+2023-05-11 19:42:04.137 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Actualmessage=true
+2023-05-11 19:42:04.137 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Expectedmessage=true
+2023-05-11 19:42:04.138 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Pass: Edit Your Account information link is displayed
+2023-05-11 19:42:07.167 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - TestScenario : com.icnetbanking.testcases.TC_Login_001_Test Started Execution
+2023-05-11 19:42:07.170 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - URL Launched successfully
+2023-05-11 19:42:07.697 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 19:42:08.076 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Cliked on Login link in HomePage successfully
+2023-05-11 19:42:08.218 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Entered Username successfully swetha2010@gmail.com
+2023-05-11 19:42:08.335 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Entered Password successfully selenium@123
+2023-05-11 19:42:08.900 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Clicked Login Button successfully
+2023-05-11 19:42:14.962 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - No Such Element Found :no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'alert-dismissible')]"}
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fad2a62847a6ed91e01c8676b1dc9ed8, findElement {using=xpath, value=//div[contains(@class,'alert-dismissible')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:55377}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55377/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fad2a62847a6ed91e01c8676b1dc9ed8
+2023-05-11 19:42:14.963 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Fail : InCorrect warning message displayed for invalid credentials
+2023-05-11 19:42:18.566 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - TestScenario : com.icnetbanking.testcases.TC_Login_001_Test Started Execution
+2023-05-11 19:42:18.567 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - URL Launched successfully
+2023-05-11 19:42:18.671 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 19:42:19.030 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Cliked on Login link in HomePage successfully
+2023-05-11 19:42:19.110 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Entered Username successfully latha@gmail.com
+2023-05-11 19:42:19.199 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Entered Password successfully selenium@123
+2023-05-11 19:42:19.512 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Clicked Login Button successfully
+2023-05-11 19:42:22.577 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Actualmessage=Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+2023-05-11 19:42:22.578 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Expectedmessage=Warning: No match for E-Mail Address and/or Password.
+2023-05-11 19:42:22.578 [main] INFO  com.icnetbanking.testcases.TC_Login_001_Test - Fail : InCorrect warning message displayed for invalid credentials
+2023-05-11 19:42:26.892 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - TestScenario : com.icnetbanking.testcases.TC_Login_002_Test Started Execution
+2023-05-11 19:42:26.894 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - URL Launched successfully
+2023-05-11 19:42:27.019 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 19:42:27.379 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Cliked on Login link in HomePage successfully
+2023-05-11 19:42:27.473 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Entered Username successfully poornima1982@gmail.com
+2023-05-11 19:42:27.547 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Entered Password successfully selenium@1234
+2023-05-11 19:42:27.881 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Clicked Login Button successfully
+2023-05-11 19:42:30.922 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Actualmessage=Warning: No match for E-Mail Address and/or Password.
+2023-05-11 19:42:30.922 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Expectedmessage=Warning: No match for E-Mail Address and/or Password.
+2023-05-11 19:42:30.923 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Pass: Correct warning message displayed for invalid credentials
+2023-05-11 19:42:33.846 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - TestScenario : com.icnetbanking.testcases.TC_Login_002_Test Started Execution
+2023-05-11 19:42:33.847 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - URL Launched successfully
+2023-05-11 19:42:34.363 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 19:42:34.780 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Cliked on Login link in HomePage successfully
+2023-05-11 19:42:34.933 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Entered Username successfully swetha2010@gmail.com
+2023-05-11 19:42:35.063 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Entered Password successfully selenium@123
+2023-05-11 19:42:35.631 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Clicked Login Button successfully
+2023-05-11 19:42:41.685 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - No Such Element Found :no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'alert-dismissible')]"}
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97bb8d6cf57c055f6d858dd2b7ec800c, findElement {using=xpath, value=//div[contains(@class,'alert-dismissible')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:55469}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55469/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97bb8d6cf57c055f6d858dd2b7ec800c
+2023-05-11 19:42:41.686 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Fail : InCorrect warning message displayed for invalid credentials
+2023-05-11 19:42:45.031 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - TestScenario : com.icnetbanking.testcases.TC_Login_002_Test Started Execution
+2023-05-11 19:42:45.034 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - URL Launched successfully
+2023-05-11 19:42:45.188 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 19:42:45.602 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Cliked on Login link in HomePage successfully
+2023-05-11 19:42:45.776 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Entered Username successfully latha@gmail.com
+2023-05-11 19:42:45.910 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Entered Password successfully pass@123
+2023-05-11 19:42:46.289 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Clicked Login Button successfully
+2023-05-11 19:42:49.333 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Actualmessage=Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+2023-05-11 19:42:49.333 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Expectedmessage=Warning: No match for E-Mail Address and/or Password.
+2023-05-11 19:42:49.333 [main] INFO  com.icnetbanking.testcases.TC_Login_002_Test - Fail : InCorrect warning message displayed for invalid credentials
+2023-05-11 19:42:52.992 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : com.icnetbanking.testcases.TC_Register_003_Test Started Execution
+2023-05-11 19:42:52.994 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL Launched successfully
+2023-05-11 19:42:53.343 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 19:42:53.876 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 19:42:53.947 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :mayuri
+2023-05-11 19:42:54.007 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :kamal
+2023-05-11 19:42:54.074 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :mayuri2010@gmail.com
+2023-05-11 19:42:54.137 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545454
+2023-05-11 19:42:54.198 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@123
+2023-05-11 19:42:54.265 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@123
+2023-05-11 19:42:54.317 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked Yes for NewsLetter successfully
+2023-05-11 19:42:54.366 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked Agree CheckBox successfully
+2023-05-11 19:42:54.682 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked Continue Button successfully
+2023-05-11 19:42:57.719 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - No Such Element Found :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='content']/h1[.='Your Account Has Been Created!']"}
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [955f7cb0334025e25ad600fb22184598, findElement {using=xpath, value=//div[@id='content']/h1[.='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:55521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55521/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 955f7cb0334025e25ad600fb22184598
+2023-05-11 19:42:57.719 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Fail: Accout not Created 
+2023-05-11 19:43:01.134 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : com.icnetbanking.testcases.TC_Register_003_Test Started Execution
+2023-05-11 19:43:01.135 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL Launched successfully
+2023-05-11 19:43:01.471 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 19:43:04.923 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 19:43:04.994 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :jamuna
+2023-05-11 19:43:05.064 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :soundar
+2023-05-11 19:43:05.141 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :jamuna1234@gmail.com
+2023-05-11 19:43:05.200 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :5454454
+2023-05-11 19:43:05.260 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@124
+2023-05-11 19:43:05.325 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@124
+2023-05-11 19:43:05.377 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked Yes for NewsLetter successfully
+2023-05-11 19:43:05.424 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked Agree CheckBox successfully
+2023-05-11 19:43:05.770 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked Continue Button successfully
+2023-05-11 19:43:08.844 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - No Such Element Found :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='content']/h1[.='Your Account Has Been Created!']"}
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [55fe2d555bff71dc073c81889d5f0e34, findElement {using=xpath, value=//div[@id='content']/h1[.='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:55546}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55546/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 55fe2d555bff71dc073c81889d5f0e34
+2023-05-11 19:43:08.844 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Fail: Accout not Created 
+2023-05-11 19:43:12.410 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : com.icnetbanking.testcases.TC_Register_003_Test Started Execution
+2023-05-11 19:43:12.413 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL Launched successfully
+2023-05-11 19:43:12.555 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 19:43:13.153 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 19:43:13.275 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :nandhini
+2023-05-11 19:43:13.376 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :bala
+2023-05-11 19:43:13.499 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :nandhini7890@gmail.com
+2023-05-11 19:43:13.599 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545435
+2023-05-11 19:43:13.699 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@125
+2023-05-11 19:43:13.808 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@125
+2023-05-11 19:43:13.893 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked Yes for NewsLetter successfully
+2023-05-11 19:43:13.974 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked Agree CheckBox successfully
+2023-05-11 19:43:14.378 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked Continue Button successfully
+2023-05-11 19:43:17.392 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - No Such Element Found :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='content']/h1[.='Your Account Has Been Created!']"}
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47d214bae3a611bf9d9ac9ce979cb782, findElement {using=xpath, value=//div[@id='content']/h1[.='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:55572}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55572/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47d214bae3a611bf9d9ac9ce979cb782
+2023-05-11 19:43:17.392 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Fail: Accout not Created 

@@ -1,0 +1,291 @@
+2023-05-10 21:19:11.780 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_001 - CheckValidUserPwdforLogin Testcase Started
+2023-05-10 21:19:13.690 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - URL is launched
+2023-05-10 21:19:13.839 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-10 21:19:14.250 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Login link in HomePage successfully
+2023-05-10 21:19:14.400 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Username successfully poornima1982@gmail.com
+2023-05-10 21:19:14.536 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Password successfully selenium@123
+2023-05-10 21:19:15.139 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Clicked Login Button successfully
+2023-05-10 21:19:18.198 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Actualmessage=true
+2023-05-10 21:19:18.198 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Expectedmessage=true
+2023-05-10 21:19:18.200 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Pass:Edit Your Account information link is displayed
+2023-05-10 21:19:18.200 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_001 - CheckValidUserPwdforLogin Testcase Ended
+2023-05-10 21:19:19.153 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_002 - CheckValidUserPwdforLogin Testcase Started
+2023-05-10 21:19:21.072 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - URL is launched
+2023-05-10 21:19:21.656 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-10 21:19:22.083 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Login link in HomePage successfully
+2023-05-10 21:19:22.230 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Username successfully poornima1982@gmail.com
+2023-05-10 21:19:22.354 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Password successfully selenium@123
+2023-05-10 21:19:22.967 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Clicked Login Button successfully
+2023-05-10 21:19:30.363 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_003 - CheckInValidUserValidPwdforLogin Testcase Started
+2023-05-10 21:19:32.248 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - URL is launched
+2023-05-10 21:19:32.354 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-10 21:19:32.737 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Login link in HomePage successfully
+2023-05-10 21:19:32.818 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Username successfully poornima1982@gmail.com
+2023-05-10 21:19:32.909 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Password successfully selenium@123
+2023-05-10 21:19:33.222 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Clicked Login Button successfully
+2023-05-10 21:19:36.265 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Actualmessage=Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+2023-05-10 21:19:36.266 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Expectedmessage=Warning: No match for E-Mail Address and/or Password.
+2023-05-10 21:34:22.668 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_001 - CheckValidUserPwdforLogin Testcase Started
+2023-05-10 21:34:24.647 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - URL is launched
+2023-05-10 21:34:25.264 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-10 21:34:25.621 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Login link in HomePage successfully
+2023-05-10 21:34:25.713 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Username successfully poornima1982@gmail.com
+2023-05-10 21:34:25.797 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Password successfully selenium@123
+2023-05-10 21:34:26.286 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Clicked Login Button successfully
+2023-05-10 21:34:29.349 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Actualmessage=true
+2023-05-10 21:34:29.350 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Expectedmessage=true
+2023-05-10 21:34:29.351 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Pass:Edit Your Account information link is displayed
+2023-05-10 21:34:29.351 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_001 - CheckValidUserPwdforLogin Testcase Ended
+2023-05-10 21:34:30.774 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_002 - CheckValidUserPwdforLogin Testcase Started
+2023-05-10 21:34:32.635 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - URL is launched
+2023-05-10 21:34:33.221 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-10 21:34:33.588 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Login link in HomePage successfully
+2023-05-10 21:34:33.672 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Username successfully poornima1982@gmail.com
+2023-05-10 21:34:33.766 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Password successfully selenium@123
+2023-05-10 21:34:34.265 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Clicked Login Button successfully
+2023-05-10 21:34:41.457 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - TestScenario : TC_LoginTest_001 - Testcase : TC_003 - CheckInValidUserValidPwdforLogin Testcase Started
+2023-05-10 21:34:43.329 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - URL is launched
+2023-05-10 21:34:43.861 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Account link in HomePage successfully
+2023-05-10 21:34:44.245 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Cliked on My Login link in HomePage successfully
+2023-05-10 21:34:44.385 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Username successfully poornima1982@gmail.com
+2023-05-10 21:34:44.521 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Entered Password successfully selenium@123
+2023-05-10 21:34:44.888 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Clicked Login Button successfully
+2023-05-10 21:34:47.925 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Actualmessage=Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+2023-05-10 21:34:47.925 [main] INFO  com.icnetbanking.testcases.TC_LoginTest_001_Test - Expectedmessage=Warning: No match for E-Mail Address and/or Password.
+2023-05-11 09:02:33.862 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:02:36.489 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:02:36.594 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:02:37.283 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:02:37.351 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :janaki
+2023-05-11 09:02:37.411 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :raja
+2023-05-11 09:02:37.480 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :janaki2010@gmail.com
+2023-05-11 09:02:37.539 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :90876213
+2023-05-11 09:02:37.598 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :janu@12345
+2023-05-11 09:02:37.658 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :janu@12345
+2023-05-11 09:02:37.707 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:02:37.754 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:02:38.090 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:02:42.520 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:02:44.442 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:02:45.015 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:02:45.549 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:02:45.618 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :Meena
+2023-05-11 09:02:45.685 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :Praneed
+2023-05-11 09:02:45.753 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :meena1234@gmail.com
+2023-05-11 09:02:45.812 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :91234567
+2023-05-11 09:02:45.869 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :meena@89034
+2023-05-11 09:02:45.931 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :meena@89034
+2023-05-11 09:02:45.976 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:02:46.023 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:02:46.350 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:02:50.348 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:02:52.268 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:02:52.824 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:02:53.448 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:02:53.561 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :Fasil
+2023-05-11 09:02:53.663 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :Ahamed
+2023-05-11 09:02:53.776 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :Fazil7890@gmail.com
+2023-05-11 09:02:53.878 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :91234567
+2023-05-11 09:02:53.990 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :Fasil123@1234
+2023-05-11 09:02:54.104 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :Fasil123@1234
+2023-05-11 09:02:54.150 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:02:54.198 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:02:54.519 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:08:51.511 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:08:53.380 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:08:53.502 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:08:54.030 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:08:54.105 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :mayuri
+2023-05-11 09:08:54.169 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :kamal
+2023-05-11 09:08:54.235 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :mayuri2010@gmail.com
+2023-05-11 09:08:54.291 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545454
+2023-05-11 09:08:54.348 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@123
+2023-05-11 09:08:54.406 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@123
+2023-05-11 09:08:54.456 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:08:54.503 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:08:55.031 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:08:55.077 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - ActualMessage = Your Account Has Been Created!
+2023-05-11 09:08:55.077 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - ActualMessage = Your Account Has Been Created!
+2023-05-11 09:08:55.079 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Pass: Account has been Created Successfully
+2023-05-11 09:08:55.975 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:08:57.763 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:08:58.332 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:08:58.877 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:08:58.947 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :jamuna
+2023-05-11 09:08:59.010 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :soundar
+2023-05-11 09:08:59.080 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :jamuna1234@gmail.com
+2023-05-11 09:08:59.137 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :5454454
+2023-05-11 09:08:59.197 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@124
+2023-05-11 09:08:59.256 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@124
+2023-05-11 09:08:59.305 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:08:59.352 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:08:59.860 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:08:59.902 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - ActualMessage = Your Account Has Been Created!
+2023-05-11 09:08:59.903 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - ActualMessage = Your Account Has Been Created!
+2023-05-11 09:08:59.903 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Pass: Account has been Created Successfully
+2023-05-11 09:09:00.790 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:09:02.709 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:09:03.218 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:09:03.831 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:09:03.955 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :nandhini
+2023-05-11 09:09:04.058 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :bala
+2023-05-11 09:09:04.183 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :nandhini7890@gmail.com
+2023-05-11 09:09:04.244 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545435
+2023-05-11 09:09:04.306 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@125
+2023-05-11 09:09:04.370 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@125
+2023-05-11 09:09:04.422 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:09:04.474 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:09:05.001 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:09:05.048 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - ActualMessage = Your Account Has Been Created!
+2023-05-11 09:09:05.049 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - ActualMessage = Your Account Has Been Created!
+2023-05-11 09:09:05.049 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Pass: Account has been Created Successfully
+2023-05-11 09:15:52.211 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:15:54.192 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:15:54.299 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:15:54.894 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:15:55.012 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :mayuri
+2023-05-11 09:15:55.112 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :kamal
+2023-05-11 09:15:55.278 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :mayuri2010@gmail.com
+2023-05-11 09:15:55.373 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545454
+2023-05-11 09:15:55.474 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@123
+2023-05-11 09:15:55.580 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@123
+2023-05-11 09:15:55.657 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:15:55.736 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:15:56.144 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:16:00.723 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:16:02.554 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:16:03.116 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:16:03.670 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:16:03.736 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :jamuna
+2023-05-11 09:16:03.802 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :soundar
+2023-05-11 09:16:03.871 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :jamuna1234@gmail.com
+2023-05-11 09:16:03.929 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :5454454
+2023-05-11 09:16:03.985 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@124
+2023-05-11 09:16:04.046 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@124
+2023-05-11 09:16:04.091 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:16:04.140 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:16:04.458 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:16:08.630 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:16:10.451 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:16:11.038 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:16:11.595 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:16:11.664 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :nandhini
+2023-05-11 09:16:11.727 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :bala
+2023-05-11 09:16:11.796 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :nandhini7890@gmail.com
+2023-05-11 09:16:11.857 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545435
+2023-05-11 09:16:11.913 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@125
+2023-05-11 09:16:11.979 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@125
+2023-05-11 09:16:12.026 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:16:12.076 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:16:12.394 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:31:33.765 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:31:35.872 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:31:35.982 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:31:36.529 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:31:36.652 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :mayuri
+2023-05-11 09:31:36.752 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :kamal
+2023-05-11 09:31:36.870 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :mayuri2010@gmail.com
+2023-05-11 09:31:36.969 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545454
+2023-05-11 09:31:37.071 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@123
+2023-05-11 09:31:37.179 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@123
+2023-05-11 09:31:37.256 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:31:37.338 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:31:37.753 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:31:42.321 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:31:44.248 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:31:44.699 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:31:45.228 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:31:45.297 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :jamuna
+2023-05-11 09:31:45.359 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :soundar
+2023-05-11 09:31:45.429 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :jamuna1234@gmail.com
+2023-05-11 09:31:45.492 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :5454454
+2023-05-11 09:31:45.559 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@124
+2023-05-11 09:31:45.617 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@124
+2023-05-11 09:31:45.673 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:31:45.722 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:31:46.057 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:31:50.545 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:31:52.458 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:31:52.769 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:31:53.297 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:31:53.364 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :nandhini
+2023-05-11 09:31:53.425 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :bala
+2023-05-11 09:31:53.496 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :nandhini7890@gmail.com
+2023-05-11 09:31:53.557 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545435
+2023-05-11 09:31:53.614 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@125
+2023-05-11 09:31:53.676 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@125
+2023-05-11 09:31:53.726 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:31:53.774 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:31:54.104 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:33:30.690 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:33:32.638 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:33:32.753 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:33:33.299 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:33:33.371 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :mayuri
+2023-05-11 09:33:33.434 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :kamal
+2023-05-11 09:33:33.505 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :mayuri2010@gmail.com
+2023-05-11 09:33:33.567 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545454
+2023-05-11 09:33:33.628 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@123
+2023-05-11 09:33:33.691 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@123
+2023-05-11 09:33:33.742 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:33:33.790 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:33:34.124 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:33:37.194 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - No Such Element Found :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='content']/h1[.='Your Account Has Been Created!']"}
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17de8614305e9cd5e41e323506d14d1d, findElement {using=xpath, value=//div[@id='content']/h1[.='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:51249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51249/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17de8614305e9cd5e41e323506d14d1d
+2023-05-11 09:33:37.194 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Fail: Accout not Created Successfully
+2023-05-11 09:33:37.195 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Ended
+2023-05-11 09:33:38.090 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:33:40.003 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:33:40.508 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:33:41.069 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:33:41.138 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :jamuna
+2023-05-11 09:33:41.202 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :soundar
+2023-05-11 09:33:41.272 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :jamuna1234@gmail.com
+2023-05-11 09:33:41.332 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :5454454
+2023-05-11 09:33:41.398 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@124
+2023-05-11 09:33:41.460 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@124
+2023-05-11 09:33:41.514 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:33:41.572 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:33:41.905 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:33:44.934 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - No Such Element Found :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='content']/h1[.='Your Account Has Been Created!']"}
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f324fd0978122d73857af67ba171ef99, findElement {using=xpath, value=//div[@id='content']/h1[.='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:51270}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51270/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f324fd0978122d73857af67ba171ef99
+2023-05-11 09:33:44.934 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Fail: Accout not Created Successfully
+2023-05-11 09:33:44.934 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Ended
+2023-05-11 09:33:46.103 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 09:33:47.907 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL is launched
+2023-05-11 09:33:48.109 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 09:33:48.619 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 09:33:48.692 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :nandhini
+2023-05-11 09:33:48.754 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :bala
+2023-05-11 09:33:48.828 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :nandhini7890@gmail.com
+2023-05-11 09:33:48.888 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545435
+2023-05-11 09:33:48.950 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@125
+2023-05-11 09:33:49.010 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@125
+2023-05-11 09:33:49.058 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on NewsLetter 'Yes' successfully
+2023-05-11 09:33:49.109 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Agreee successfully
+2023-05-11 09:33:49.430 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Clicked on Continue successfully
+2023-05-11 09:33:52.501 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - No Such Element Found :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='content']/h1[.='Your Account Has Been Created!']"}
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f61001e20bd47fd1ee5818b9a99d668a, findElement {using=xpath, value=//div[@id='content']/h1[.='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:51290}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51290/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f61001e20bd47fd1ee5818b9a99d668a
+2023-05-11 09:33:52.502 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Fail: Accout not Created Successfully
+2023-05-11 09:33:52.502 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Ended

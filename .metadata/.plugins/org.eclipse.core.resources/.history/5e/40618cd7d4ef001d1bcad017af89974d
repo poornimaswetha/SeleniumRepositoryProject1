@@ -1,0 +1,60 @@
+2023-05-11 11:17:05.071 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 11:17:05.074 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL Launched successfully
+2023-05-11 11:17:05.174 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 11:17:05.703 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 11:17:05.782 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :mayuri
+2023-05-11 11:17:05.844 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :kamal
+2023-05-11 11:17:05.914 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :mayuri2010@gmail.com
+2023-05-11 11:17:05.972 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545454
+2023-05-11 11:17:06.031 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@123
+2023-05-11 11:17:06.090 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@123
+2023-05-11 11:17:09.576 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - No Such Element Found :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='content']/h1[.='Your Account Has Been Created!']"}
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5fa51d29cf28131338ee0f566a260b4, findElement {using=xpath, value=//div[@id='content']/h1[.='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:53440}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53440/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c5fa51d29cf28131338ee0f566a260b4
+2023-05-11 11:17:09.576 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Fail: Accout not Created 
+2023-05-11 11:17:12.610 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 11:17:12.613 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL Launched successfully
+2023-05-11 11:17:12.799 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 11:17:13.395 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 11:17:13.508 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :jamuna
+2023-05-11 11:17:13.614 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :soundar
+2023-05-11 11:17:13.740 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :jamuna1234@gmail.com
+2023-05-11 11:17:13.841 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :5454454
+2023-05-11 11:17:13.940 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@124
+2023-05-11 11:17:14.060 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@124
+2023-05-11 11:17:17.692 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - No Such Element Found :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='content']/h1[.='Your Account Has Been Created!']"}
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e919465fc230f64a99095c6391c67a0, findElement {using=xpath, value=//div[@id='content']/h1[.='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:53459}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53459/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e919465fc230f64a99095c6391c67a0
+2023-05-11 11:17:17.692 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Fail: Accout not Created 
+2023-05-11 11:17:21.021 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - TestScenario : TC_Register_003_Test - Testcase : TC_005 - RegisterNewAccount Testcase Started
+2023-05-11 11:17:21.022 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - URL Launched successfully
+2023-05-11 11:17:21.493 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Account link in HomePage successfully
+2023-05-11 11:17:22.033 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Cliked on My Register link in HomePage successfully
+2023-05-11 11:17:22.102 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Firstname successfully :nandhini
+2023-05-11 11:17:22.167 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Lastname successfully :bala
+2023-05-11 11:17:22.236 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Email successfully :nandhini7890@gmail.com
+2023-05-11 11:17:22.295 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered Telephoneno successfully :4545435
+2023-05-11 11:17:22.356 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered password successfully :test@125
+2023-05-11 11:17:22.414 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Entered confirm password successfully :test@125
+2023-05-11 11:17:25.905 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - No Such Element Found :no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='content']/h1[.='Your Account Has Been Created!']"}
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb89ce61643bfd2226512bce2d8e7f21, findElement {using=xpath, value=//div[@id='content']/h1[.='Your Account Has Been Created!']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:53480}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53480/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eb89ce61643bfd2226512bce2d8e7f21
+2023-05-11 11:17:25.906 [main] INFO  com.icnetbanking.testcases.TC_Register_003_Test - Fail: Accout not Created 

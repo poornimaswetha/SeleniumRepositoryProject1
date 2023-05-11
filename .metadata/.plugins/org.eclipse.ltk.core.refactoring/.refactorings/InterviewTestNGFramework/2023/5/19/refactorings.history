@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;CustomDataProvider.java&apos; to &apos;IcNetBanking/src/test/java/com.icnetbanking.utilities&apos;&#x0D;&#x0A;- Original project: &apos;InterviewTestNGFramework&apos;&#x0D;&#x0A;- Destination element: &apos;IcNetBanking/src/test/java/com.icnetbanking.utilities&apos;&#x0D;&#x0A;- Original element: &apos;DataProviderPack.CustomDataProvider.java&apos;" description="Copy compilation unit" destination="=IcNetBanking/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.icnetbanking.utilities" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;DataProviderPack{CustomDataProvider.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1683726223436" units="1" version="1.0"/>
+</session>

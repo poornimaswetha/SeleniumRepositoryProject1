@@ -1,0 +1,7 @@
+baseurl=https://demo.guru99.com/test/newtours/index.php;
+username=poornima;
+password=mercury;
+chromepath=D:\\SeliniumWorkspace\\IcNetBanking\\Drivers\\chromedriver.exe;
+firefoxpath=D:\\SeliniumWorkspace\\IcNetBanking\\Drivers\\geckodriver.exe;
+iepath=D:\\SeliniumWorkspace\\IcNetBanking\\Drivers\\IEDriverServer.exe;
+edgedriver=D:\\SeliniumWorkspace\\IcNetBanking\\Drivers\\msedgedriver.exe;

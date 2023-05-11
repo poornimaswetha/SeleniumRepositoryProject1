@@ -1,0 +1,35 @@
+package Session19;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Tables1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+			
+		System.setProperty("webdriver.chrome.driver", "D:\\SeliniumWorkspace\\SeleniumWebDriverDemo\\Drivers\\chromedriver.exe");
+		WebDriver driver =  new ChromeDriver();		
+				
+		// get method and Manage method belong to web driver interface		
+		driver.get("http://omayo.blogspot.com//");			
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+				
+		List<WebElement> headings = driver.findElements(By.xpath("//table[@id='table1']//th"));
+		System.out.println(headings.size());
+				
+		for (int i=0;i<=headings.size();i++) {
+		System.out.println(headings.get(i).getText());
+		}
+		
+		System.out.println(driver.findElements(By.xpath("//table[@id='table1']/tbody/tr")).size());
+		System.out.println(driver.findElements(By.xpath("//table[@id='table1']/tbody/tr[2]/td")).size());
+	
+	}
+driver.quit();
+}

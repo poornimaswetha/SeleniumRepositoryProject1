@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;JaveScriptExecutor&apos; to &apos;InterviewSeleniumConcepts/src&apos;&#x0D;&#x0A;- Original project: &apos;InterviewJavaConcepts&apos;&#x0D;&#x0A;- Destination element: &apos;InterviewSeleniumConcepts/src&apos;&#x0D;&#x0A;- Original element: &apos;InterviewJavaConcepts/src/JaveScriptExecutor&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=InterviewSeleniumConcepts/src" element1="/src&lt;JaveScriptExecutor" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1682520324295" version="1.0"/>
+</session>

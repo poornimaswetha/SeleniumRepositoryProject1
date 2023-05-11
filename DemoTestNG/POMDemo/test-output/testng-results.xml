@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-10T08:57:58 AST" name="Default suite" finished-at="2022-11-10T08:58:05 AST" duration-ms="6804">
+    <groups>
+    </groups>
+    <test started-at="2022-11-10T08:57:58 AST" name="Default test" finished-at="2022-11-10T08:58:05 AST" duration-ms="6804">
+      <class name="POMPackage.LoginTestCase">
+        <test-method signature="Login()[pri:0, instance:POMPackage.LoginTestCase@5677323c]" started-at="2022-11-10T08:57:58 AST" name="Login" finished-at="2022-11-10T08:58:05 AST" duration-ms="6524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:POMPackage.LoginTestCase@5677323c]" started-at="2022-11-10T08:58:05 AST" name="closure" finished-at="2022-11-10T08:58:05 AST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- POMPackage.LoginTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

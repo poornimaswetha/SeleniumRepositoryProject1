@@ -1,0 +1,69 @@
+package com.icnetbanking.pageobjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class RegisterPage {
+	WebDriver driver;
+	
+	public RegisterPage(WebDriver driver){
+		this.driver=driver;		
+		PageFactory.initElements(driver, this);		
+	}
+	
+	@FindBy(id="input-firstname")
+	WebElement txtregfirstname;
+	
+	@FindBy(id="input-lastname")
+	WebElement txtreglastname;
+	
+	@FindBy(id="input-email")
+	WebElement txtregemail;
+	
+	@FindBy(id="input-telephone")
+	WebElement txtregtelephone;
+	
+	@FindBy(id="input-password")
+	WebElement txtregpassword;
+	
+	@FindBy(id="input-confirm")
+	WebElement txtregconfirmpassword;	
+	
+	@FindBy(xpath="//label[@class='radio-inline']/preceding-sibling::label")
+	WebElement radiobtnnewsletteryes;
+	
+	@FindBy(xpath="//input[@name='agree']")
+	WebElement chkboxregagree;
+	
+	@FindBy(xpath="//input[@value='Continue']")
+	WebElement btnregcontinue;
+	
+	//Action Methods
+	public void setregfirstname() {
+		txtregfirstname.sendKeys(fname);	
+	}
+	public void setreglastname() {
+		txtreglastname.sendKeys(lname);	
+	}
+	public void setregemail() {
+		txtregemail.sendKeys(email);	
+	}
+	public void setregtelephone() {
+		txtregtelephone.sendKeys(telephone);	
+	}
+	public void setregpassword() {
+		txtregpassword.sendKeys(regpwd);	
+	}
+	public void setregconfirmpassword() {
+		txtregconfirmpassword.sendKeys(regconfirmpwd);	
+	}
+	public void clickyesnewsletter() {
+		radiobtnnewsletteryes.sendKeys(newletteryes);	
+	}
+	
+	public void clickagree() {
+		chkboxregagree.sendKeys(regagree);		
+	}
+}

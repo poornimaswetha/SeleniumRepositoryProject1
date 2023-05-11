@@ -1,0 +1,56 @@
+package Reading.SampleTest;
+
+import java.time.Duration;
+import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Test1 {
+
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		//System.setProperty(Webdriver.Chrome.driver, "D:\\SeliniumWorkspace\\SeleniumWebDriverDemo\\Drivers\\chromedriver.exe"));
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver();
+		driver.get("http://www.tutorialsninja.com/demo/");
+		driver.manage().window().maximize();
+		Thread.sleep(3000);
+		driver.findElement(By.id("//a[@title='My Account']"));
+		//driver.manage().timeouts().implicitlyWait(3, timeunit.SECONDS);
+		
+		
+		// explicit wait - to wait for the compose button to be click-able
+		WebDriverWait wait = new WebDriverWait(driver,30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'COMPOSE')]")));
+		// click on the compose button as soon as the "compose" button is visible
+		driver.findElement(By.xpath("//div[contains(text(),'COMPOSE')]")).click();
+		
+		Wait<WebDriver> wait1 = new FluentWait<WebDriver>(driver)
+			       .withTimeout(Duration.ofSeconds(30L))
+			       .pollingEvery(Duration.ofSeconds(5L))
+			       .ignoring(NoSuchElementException.class);
+
+			   WebElement foo = wait1.until(new Function<WebDriver, WebElement>() {
+			     public WebElement apply(WebDriver driver) {
+			       return driver.findElement(By.id("foo"));
+			     }
+			   });
+			 
+	
+
+	
+
+}
+}

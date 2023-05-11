@@ -1,0 +1,31 @@
+package com.icnetbanking.pageobjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+//constructor
+public class HomePage {
+	WebDriver driver;
+	
+	public HomePage(WebDriver driver){
+		this.driver=driver;		
+		PageFactory.initElements(driver, this);		
+	}
+	
+	@FindBy(xpath="//span[text()='My Account']")
+	WebElement linkmyaccount;
+	
+	@FindBy(linkText="Login")
+	WebElement linklogin;
+		
+	//Action Methods
+	public void clicklinkmyaccount() {
+		linklogin.click();		
+	}
+	public void clicklinklogin() {
+		linklogin.click();		
+	}
+		
+	
+}

@@ -1,0 +1,18 @@
+
+public class Session7Objects {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Session7Car bmw=new Session7Car ();
+		
+		//Initializing object
+		bmw.cost=120000;
+		bmw.milage=1000;
+		bmw.model="BMW";
+		bmw.color="blue";
+		
+
+	}
+
+}

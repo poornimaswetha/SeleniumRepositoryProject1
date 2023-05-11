@@ -1,0 +1,27 @@
+package one;
+
+public class dataProvider {
+
+
+		public  void loginTest(String username, String password) {
+			System.out.println(username);
+			System.out.println(password);
+		}
+
+		
+		@DataProvider
+		public getdata() {
+			object[][] a=array object[2][2];
+			object[2][2]="poornima";
+			object[2][2]="12345";
+			
+			object[2][2]="poornima";
+			object[2][2]="12345";
+			
+			object[2][2]="poornima";
+			object[2][2]="12345";
+					
+		}
+		
+	}
+

@@ -1,0 +1,64 @@
+package com.icnetbanking.testcases;
+
+import static org.testng.Assert.assertTrue;
+
+import java.time.Duration;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.junit.Assert;
+import org.openqa.selenium.NoSuchElementException;
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.Status;
+import com.icnetbanking.pageobjects.HomePage;
+import com.icnetbanking.pageobjects.RegisterPage;
+import com.icnetbanking.utilities.Listeners;
+
+public class TC_Register_003_Test extends BaseClass {
+
+	@Test(priority = 1, dataProvider = "gettestdatafromexcel", dataProviderClass = com.icnetbanking.testdata.ExcelDataProvider.class)
+	public void RegisterNewAccount(String fname, String lname, String email, String telephone, String regpwd) {
+		HomePage HomePageObj = new HomePage(driver);
+		HomePageObj.clicklinkmyaccount();
+		HomePageObj.clicklinkregister();
+		RegisterPage RegisterPageObj = new RegisterPage(driver);
+		RegisterPageObj.setregfirstname(fname);
+		RegisterPageObj.setreglastname(lname);
+		RegisterPageObj.setregemail(email);
+		RegisterPageObj.setregtelephone(telephone);
+		RegisterPageObj.setregpassword(regpwd);
+		RegisterPageObj.setregconfirmpassword(regpwd);
+		RegisterPageObj.clickyesnewsletter();
+		RegisterPageObj.clickagree();
+		RegisterPageObj.clickcontinue();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+
+		try {
+			String Actualmessage = RegisterPageObj.gettxtaccountcreated();
+			String Expectedmessage = "Your Account Has Been Created!";
+			logger.info("ActualMessage = " + Actualmessage);
+			Listeners.extenttest.log(Status.INFO, "ActualMessage = " + Actualmessage);
+			logger.info("Expectedmessage = " + Expectedmessage);
+			Listeners.extenttest.log(Status.INFO, "Expectedmessage = " + Expectedmessage);
+			if (Actualmessage.equals(Expectedmessage)) {
+				logger.info("Pass: Account has been Created Successfully");
+				Listeners.extenttest.log(Status.INFO, "Pass: Account has been Created Successfully");
+				Assert.assertTrue(true);
+
+			} else {
+				logger.info("Fail: Accout not Created ");
+				Listeners.extenttest.log(Status.INFO, "Fail: Accout not Created ");
+				Assert.assertTrue(false);
+			}
+
+		} catch (NoSuchElementException e) {
+			// e.printStackTrace();
+			logger.info("No Such Element Found :" + e.getMessage());
+			logger.info("Fail: Accout not Created ");
+			Listeners.extenttest.log(Status.INFO, "Fail: Accout not Created ");
+			Assert.assertTrue(false);			
+		}
+		
+	}
+
+}

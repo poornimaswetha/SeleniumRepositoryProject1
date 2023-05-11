@@ -1,0 +1,11 @@
+package JavaInterviewPrograms;
+
+public class ReverseSentence {
+
+	public static void main(String[] args) {
+		String sentence="Java is a Programming Language";
+		
+
+	}
+
+}

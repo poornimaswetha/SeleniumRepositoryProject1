@@ -1,0 +1,22 @@
+[INFO ] 2023-05-10 16:10:23.123 [main] TC_LoginTest_001 - TestCase : TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 16:10:25.290 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 16:10:25.892 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 16:10:26.447 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 16:10:26.594 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 16:10:26.725 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 16:10:27.220 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 16:10:56.678 [main] TC_LoginTest_001 - TestCase : TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 16:10:58.831 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 16:10:59.554 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 16:11:00.145 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 16:11:00.291 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 16:11:00.416 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 16:11:00.775 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 16:13:49.793 [main] TC_LoginTest_001 - TestCase : TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 16:13:51.872 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 16:13:52.505 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 16:13:52.906 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 16:13:53.053 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 16:13:53.179 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 16:13:54.006 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 16:13:57.104 [main] TC_LoginTest_001 - TestCase : TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Ended**

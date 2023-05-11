@@ -1,0 +1,23 @@
+
+public class Session7Car {
+
+static String color;
+int milage;
+int cost;
+String model;
+	
+	public static void methodColor() {
+		System.out.println("Method Color ="+color);
+		
+		
+	}
+
+	public void methodmodel() {
+		System.out.println("Method Model="+model);
+		
+	}
+
+	
+
+
+}

@@ -1,0 +1,56 @@
+
+package com.icnetbanking.testcases;
+import java.time.Duration;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
+
+import com.icnetbanking.pageobjects.HomePage;
+import com.icnetbanking.pageobjects.LoginPage;
+
+@Listeners(com.icnetbanking.utilities.Listeners.class) // package.Listeners.class
+public class TC_LoginTest_002 extends BaseClass {
+	
+	protected static String currenttestcase="TC_LoginTest_002";
+	Logger logger = LogManager.getLogger(TC_LoginTest_002.class.getName()); 
+	
+	@Test(priority=1, dataProvider = "InvalidCredentialsLogin", dataProviderClass = com.icnetbanking.testdata.ExcelDataProvider.class)
+	public void InvalidCredentialsLogin (String uname, String pwd,String expectedmsg) throws InterruptedException {
+		logger.info("TestScenario : TC_LoginTest_002 - Testcase : TC_004 - InvalidCredentialsLogin Testcase Started");		
+		driver.get(baseurl);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+		logger.info("URL is launched");		
+		HomePage HomePageObj=new HomePage(driver);
+		HomePageObj.clicklinkmyaccount();
+		logger.info("Cliked on My Account link in HomePage successfully");
+		HomePageObj.clicklinklogin();
+		logger.info("Cliked on My Login link in HomePage successfully");
+		LoginPage LoginPageObj = new LoginPage(driver);				
+		LoginPageObj.setusername(uname);
+		logger.info("Entered Username successfully");
+		LoginPageObj.setpassword(pwd);
+		logger.info("Entered Password successfully");
+		LoginPageObj.clickbuttonlogin();;
+		logger.info("Clicked Login Button successfully");
+		Thread.sleep(3000);
+		String Actualmessage=LoginPageObj.gettxtinvalidcredentials();
+		String Expectedmessage=expectedmsg;
+		System.out.println(Actualmessage);
+		System.out.println(Expectedmessage);
+		System.out.println(Actualmessage.equals(Expectedmessage))
+		if (Actualmessage.equals(Expectedmessage)) {
+			Assert.assertTrue(true);
+			logger.info("Correct warning message displayed for invalid credentials");
+		}else {
+			Assert.assertFalse(false);
+			logger.info("Correct warning message displayed for invalid credentials");
+		}
+		
+		logger.info("TestScenario : TC_LoginTest_002- Testcase : TC_004 - InvalidCredentialsLogin Testcase Ended");
+	}
+
+}

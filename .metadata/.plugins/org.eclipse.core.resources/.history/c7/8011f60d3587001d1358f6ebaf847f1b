@@ -1,0 +1,20 @@
+
+public class Session7Car {
+
+String color;
+int milage;
+int cost;
+String model;
+	
+	public void methodColor() {
+		
+	}
+
+	public void methodmodel() {
+		
+	}
+
+	
+
+
+}

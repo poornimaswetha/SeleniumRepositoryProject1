@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="url" value="http://tutorialsninja.com/demo/" />
+	<test thread-count="5" name="TestModule1">
+		<parameter name="username" value="poornima1982@gmail.com" />
+		<parameter name="password" value="poornima@123" />
+		<classes>
+			<class name="Parameterizing.ClassTen" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="TestModule2">
+		<parameter name="username" value="swetha2010@gmail.com" />
+		<parameter name="password" value="selenium@123" />
+		<classes>
+			<class name="TestNGPack1.ClassTwelve" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,67 @@
+[INFO ] 2023-05-10 15:40:32.726 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 15:40:34.849 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 15:40:35.299 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 15:40:35.789 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 15:40:35.938 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 15:40:36.058 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 15:40:36.561 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 15:49:20.664 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 15:49:23.227 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 15:49:23.759 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 15:49:24.335 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 15:49:24.494 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 15:49:24.624 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 15:49:25.138 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 15:51:06.033 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 15:51:08.009 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 15:51:08.643 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 15:51:09.221 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 15:51:09.371 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 15:51:09.490 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 15:51:10.108 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 15:57:35.943 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 15:57:37.947 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 15:57:38.585 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 15:57:39.194 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 15:57:39.364 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 15:57:39.498 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 15:57:39.958 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 15:58:44.062 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 15:58:46.513 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 15:58:47.224 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 15:58:47.768 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 15:58:47.932 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 15:58:48.058 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 15:58:48.481 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 16:00:40.272 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 16:00:42.434 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 16:00:43.186 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 16:00:43.800 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 16:00:43.949 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 16:00:44.074 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 16:00:44.515 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 16:02:01.344 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 16:02:03.514 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 16:02:04.141 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 16:02:04.776 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 16:02:04.931 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 16:02:05.062 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 16:02:05.488 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 16:03:17.460 [main] TC_LoginTest_001 - TestCase : TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 16:03:19.404 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 16:03:20.097 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 16:03:36.601 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 16:03:45.973 [main] TC_LoginTest_001 - TestCase : TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 16:03:48.054 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 16:03:48.598 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 16:03:49.018 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 16:03:49.167 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 16:03:49.289 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 16:03:49.663 [main] TC_LoginTest_001 - Clicked Login Button successfully
+[INFO ] 2023-05-10 16:07:55.697 [main] TC_LoginTest_001 - TestCase : TC_LoginTest_001 - CheckValidUserPwdforLogin Testcase Started **
+[INFO ] 2023-05-10 16:07:57.686 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 16:07:58.388 [main] TC_LoginTest_001 - Cliked on My Account link in HomePage successfully
+[INFO ] 2023-05-10 16:07:58.947 [main] TC_LoginTest_001 - Cliked on My Login link in HomePage successfully
+[INFO ] 2023-05-10 16:07:59.115 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 16:07:59.234 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 16:07:59.632 [main] TC_LoginTest_001 - Clicked Login Button successfully

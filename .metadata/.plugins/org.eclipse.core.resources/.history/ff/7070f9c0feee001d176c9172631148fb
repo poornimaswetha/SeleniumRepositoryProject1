@@ -1,0 +1,84 @@
+[INFO ] 2023-05-10 09:41:18.623 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Started **
+[INFO ] 2023-05-10 09:41:18.626 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 09:41:18.793 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 09:41:18.919 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 09:41:20.234 [main] TC_LoginTest_001 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:41:20.246 [main] TC_LoginTest_001 - Login Successful - Login TestCase Passed
+[INFO ] 2023-05-10 09:41:20.246 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Ended**
+[INFO ] 2023-05-10 09:41:21.960 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-10 09:41:21.962 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 09:41:22.019 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 09:41:22.073 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 09:41:22.836 [main] TC_LoginTest_002 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:41:22.842 [main] TC_LoginTest_002 - Login Successful - verifyLoginwithValidandInvaliddata TestCase Passed
+[INFO ] 2023-05-10 09:41:22.842 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - Login Test Case Ended**
+[INFO ] 2023-05-10 09:41:23.467 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-10 09:41:23.467 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 09:41:23.525 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 09:41:23.624 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 09:41:24.491 [main] TC_LoginTest_002 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:41:24.500 [main] TC_LoginTest_002 - Login not Successful - verifyLoginwithValidandInvaliddata TestCase Failed
+[INFO ] 2023-05-10 09:41:24.501 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - Login Test Case Ended**
+[INFO ] 2023-05-10 09:41:25.254 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-10 09:41:25.255 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 09:41:25.353 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 09:41:25.447 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 09:41:26.568 [main] TC_LoginTest_002 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:41:26.577 [main] TC_LoginTest_002 - Login not Successful - verifyLoginwithValidandInvaliddata TestCase Failed
+[INFO ] 2023-05-10 09:41:26.577 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - Login Test Case Ended**
+[INFO ] 2023-05-10 09:41:27.412 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-10 09:41:27.412 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 09:41:27.520 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 09:41:27.575 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 09:41:28.415 [main] TC_LoginTest_002 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:41:28.421 [main] TC_LoginTest_002 - Login Successful - verifyLoginwithValidandInvaliddata TestCase Passed
+[INFO ] 2023-05-10 09:41:28.422 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - Login Test Case Ended**
+[INFO ] 2023-05-10 09:41:29.108 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-10 09:41:29.108 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 09:41:29.167 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 09:41:29.274 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 09:41:30.102 [main] TC_LoginTest_002 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:41:30.111 [main] TC_LoginTest_002 - Login not Successful - verifyLoginwithValidandInvaliddata TestCase Failed
+[INFO ] 2023-05-10 09:41:30.111 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - Login Test Case Ended**
+[INFO ] 2023-05-10 09:48:31.311 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Started **
+[INFO ] 2023-05-10 09:48:31.313 [main] TC_LoginTest_001 - URL is launched
+[INFO ] 2023-05-10 09:48:31.399 [main] TC_LoginTest_001 - Entered Username successfully
+[INFO ] 2023-05-10 09:48:31.459 [main] TC_LoginTest_001 - Entered Password successfully
+[INFO ] 2023-05-10 09:48:33.026 [main] TC_LoginTest_001 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:48:33.034 [main] TC_LoginTest_001 - Login Successful - Login TestCase Passed
+[INFO ] 2023-05-10 09:48:33.034 [main] TC_LoginTest_001 - ** TC_LoginTest_001 - Login Test Case Ended**
+[INFO ] 2023-05-10 09:48:34.293 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-10 09:48:34.293 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 09:48:34.396 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 09:48:34.491 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 09:48:35.605 [main] TC_LoginTest_002 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:48:35.614 [main] TC_LoginTest_002 - Login Successful - verifyLoginwithValidandInvaliddata TestCase Passed
+[INFO ] 2023-05-10 09:48:35.614 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - Login Test Case Ended**
+[INFO ] 2023-05-10 09:48:36.378 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-10 09:48:36.379 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 09:48:36.565 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 09:48:36.754 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 09:48:37.658 [main] TC_LoginTest_002 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:48:37.665 [main] TC_LoginTest_002 - Login not Successful - verifyLoginwithValidandInvaliddata TestCase Failed
+[INFO ] 2023-05-10 09:48:37.665 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - Login Test Case Ended**
+[INFO ] 2023-05-10 09:48:38.330 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-10 09:48:38.330 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 09:48:38.386 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 09:48:38.440 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 09:48:39.238 [main] TC_LoginTest_002 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:48:39.243 [main] TC_LoginTest_002 - Login not Successful - verifyLoginwithValidandInvaliddata TestCase Failed
+[INFO ] 2023-05-10 09:48:39.244 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - Login Test Case Ended**
+[INFO ] 2023-05-10 09:48:39.870 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-10 09:48:39.870 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 09:48:39.927 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 09:48:39.986 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 09:48:40.721 [main] TC_LoginTest_002 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:48:40.730 [main] TC_LoginTest_002 - Login Successful - verifyLoginwithValidandInvaliddata TestCase Passed
+[INFO ] 2023-05-10 09:48:40.731 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - Login Test Case Ended**
+[INFO ] 2023-05-10 09:48:41.486 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - verifyLoginwithValidandInvaliddata Test Case Started **
+[INFO ] 2023-05-10 09:48:41.486 [main] TC_LoginTest_002 - URL is launched
+[INFO ] 2023-05-10 09:48:41.590 [main] TC_LoginTest_002 - Entered Username successfully
+[INFO ] 2023-05-10 09:48:41.684 [main] TC_LoginTest_002 - Entered Password successfully
+[INFO ] 2023-05-10 09:48:42.795 [main] TC_LoginTest_002 - Clicked Submit successfully
+[INFO ] 2023-05-10 09:48:42.804 [main] TC_LoginTest_002 - Login not Successful - verifyLoginwithValidandInvaliddata TestCase Failed
+[INFO ] 2023-05-10 09:48:42.804 [main] TC_LoginTest_002 - ** TC_LoginTest_002 - Login Test Case Ended**

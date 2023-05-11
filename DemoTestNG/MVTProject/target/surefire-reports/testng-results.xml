@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-09T01:17:18 AST" name="Suite" finished-at="2022-11-09T01:17:26 AST" duration-ms="7737">
+    <groups>
+    </groups>
+    <test started-at="2022-11-09T01:17:18 AST" name="Test" finished-at="2022-11-09T01:17:26 AST" duration-ms="7737">
+      <class name="Session25.ThreeTest">
+        <test-method signature="mThree()[pri:0, instance:Session25.ThreeTest@7c729a55]" started-at="2022-11-09T01:17:26 AST" name="mThree" finished-at="2022-11-09T01:17:26 AST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mThree -->
+      </class> <!-- Session25.ThreeTest -->
+      <class name="Session25.FourTest">
+        <test-method signature="mFour()[pri:0, instance:Session25.FourTest@3bb9a3ff]" started-at="2022-11-09T01:17:26 AST" name="mFour" finished-at="2022-11-09T01:17:26 AST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mFour -->
+      </class> <!-- Session25.FourTest -->
+      <class name="Session25.TwoTest">
+        <test-method signature="mTwo()[pri:0, instance:Session25.TwoTest@47af7f3d]" started-at="2022-11-09T01:17:26 AST" name="mTwo" finished-at="2022-11-09T01:17:26 AST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mTwo -->
+      </class> <!-- Session25.TwoTest -->
+      <class name="Session25.OneTest">
+        <test-method signature="mone()[pri:0, instance:Session25.OneTest@1ea9f6af]" started-at="2022-11-09T01:17:18 AST" name="mone" finished-at="2022-11-09T01:17:26 AST" duration-ms="7454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mone -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:Session25.OneTest@1ea9f6af]" started-at="2022-11-09T01:17:26 AST" name="closure" finished-at="2022-11-09T01:17:26 AST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- Session25.OneTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

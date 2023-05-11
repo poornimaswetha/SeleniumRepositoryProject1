@@ -1,0 +1,15 @@
+package JavaInterviewPrograms;
+
+import java.util.Scanner;
+
+// Compare 2 strings
+public class comparestrings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(system.io);
+		
+
+	}
+
+}
